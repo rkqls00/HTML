@@ -45,6 +45,26 @@
             font-family: 나눔고딕;
             font-size: 16px;
         }
+        .text-area{
+            width: 60%;
+            padding-top: 50px;
+            float: left;
+        }
+        #text-head{
+            padding-left: 50px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .text-body{
+            padding-left: 70px;
+            padding-right: 30px;
+        }
+        .map-area{
+            width: 40%;
+            padding-top: 50px;
+            float: right;
+            
+        }
         .button{
             background-color: #50aa22;
             text-align: center;
@@ -66,22 +86,23 @@
     <div style="font-size: 30px;">맛있습니다.</div>
 </div>
 <div class="header">
-   <div style="color: white;"><b><a href="menu.html">메뉴</a>/<a href="reservation.html">예약</a>/<a href="road.html">찾아오시는 길 </a></b></div>
-</div>
-<div class="side">
-    <p>신선한 재료</p>
-    <p>합리적인 가격</p>
-    <p>뛰어난 맛</p>
-    <p>문의전화: 2020-2020</p>
-    <img src="./image/coffee.jpg"; width="150px"; height="300px">
+   <div style="color: white;"><b><a href="menu.html">메뉴</a>/<a href="reservation.html">예약</a>/<a href="4.html">home</a></b></div>
 </div>
 <div class="contents">
-    <p>안녕하세요 반갑습니다.<br>고맙습니다.<br>
-        <br>늘 노력하며 최고의 품질로 음식을 만들고 있습니다. 저희 가게는 정말로 질 안좋은 식재료는 쓰지 않고 있습니다.
-        <br>영업시간: 10:00~12:00</p>
-    <img src="./image/cafe.jpg"; width="500px"; height="400px">
-    <p>
-    <a href=reservation.html" class="button">예약문의하기</a></p>
+    <div class="text-area">
+    <p id="text-head">자가용 이용시</p>
+   <p class="text-body">3거리에서 우회전 후 직진<br>
+    롯데백화점에서 좌회전</p>
+    <p id="text-head">대중교통 이용시</p>
+   <p class="text-body">현대백화점 방향 노선버스 승차<br>
+    노선버스: 22-1, 22-2, 152, 5524<br>
+    배차간격: 5분</p>
+    <p style="padding-left: 75px; font-weight: bold;">주소: 서울시 ★★구 ♡♡동</p>
+    </div>
+    <div class="map-area">
+        <iframe frameborder=0 width="600" height="500"
+        src="https://www.google.com/maps/embed/v1/"></iframe>
+    </div>
 </div>
 <div class="footer">
     <p>주소: 서울시 ★★구 ♡♡동</p>
