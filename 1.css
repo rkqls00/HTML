@@ -4,7 +4,7 @@
 }
 #banner > div{
     position: relative;
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     text-align: center;
 }
@@ -33,4 +33,86 @@
     font-size: 11px;
     color: white;
     padding-right: 22px;
+}
+
+#header {
+    height: 99px;
+    border-bottom: 1px solid #c5c5c5;
+}
+#header > div{
+    margin: 0 auto;
+    width: 1300px;
+}
+.hide{
+    position: absolute;
+    left: -3000%;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+#header > div > *{
+    float: left;
+}
+#header .lnb li{
+    float: left;
+    padding: 0 16px;
+}
+#header .lnb li a{
+    display: block;
+    height: 75px;
+    line-height: 75px;
+    font-weight: bold;
+    color: #333;
+}
+#header .lnb li a:hover{
+  border-bottom: 4px solid #1764dc;
+  height: 78px;
+  color: #3c91f3;
+  text-align: center;
+  background-image: url(./index_images/bg_lnb.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 70px;
+}
+#header p{
+    height:55px ;
+    line-height: 55px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0e3c84;
+    float: left;
+}
+#header p > span{
+    color: #1764dc;
+}
+#header > div > div{
+    float: right;
+}
+#header >div > div > div{
+    padding-top: 20px;
+    margin-left:10px;
+    font-size: 0;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+#header >div > div > div a{
+    vertical-align: middle;
+}
+#header .pop{
+    width: 75px;
+    height: 40px;
+    background-color:#2cc06b;
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    line-height: 35px;
+    text-indent: 9px;
+    background-image:url(./index_images/bu_arrow_down.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x:55px ;
 }
